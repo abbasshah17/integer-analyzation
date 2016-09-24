@@ -2,9 +2,9 @@
 #include <set>
 #include "cmultiset.h"
 
-//template <class MultiSet<int>>
+template <class Type>
 
-class Set : public set<MultiSet<int>>
+class Set : public set<Type>
 {
 private:
 	
@@ -12,5 +12,5 @@ public:
 	Set();
 	~Set();
 
-	void add(MultiSet<int> &);
+	void add(Type &);
 };

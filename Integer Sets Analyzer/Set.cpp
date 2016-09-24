@@ -1,26 +1,25 @@
 #pragma once
 #include "stdafx.h"
 #include "cset.h"
-#include "cmultiset.h"
 
 using namespace std;
 
-//template <class MultiSet<int>>
-Set::Set()
+template <class Type>
+Set<Type>::Set()
 {
 
 }
 
-//template <class MultiSet<int>>
-Set :: ~Set()
+template <class Type>
+Set<Type> :: ~Set()
 {
 
 }
 
-//template <class MultiSet<int>>
-void Set :: add(MultiSet<int> & entry)
+template <class Type>
+void Set<Type> :: add(Type & entry)
 {
-	set<MultiSet<int>>::insert(entry);
+	set<Type>::insert(entry);
 
 	//cout << "Result" + result;
 }

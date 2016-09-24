@@ -50,7 +50,7 @@ int main()
 
 	ifstream inputStream;
 
-	set<MultiSet <int>> intSet;
+	Set<MultiSet <int>> intSet;
 
 	inputStream.open(fileName);
 
@@ -93,7 +93,7 @@ int main()
 				i++;
 			}
 
-			intSet.insert(multipleValueAllowedSet);
+			intSet.add(multipleValueAllowedSet);
 		}
 
 		cout << "---------------------------------------------------------------------" << endl

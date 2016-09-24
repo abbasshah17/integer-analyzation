@@ -24,12 +24,6 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="analyzer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="filehandler.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="cmultiset.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -42,12 +36,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Integer Sets Analyzer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Analyzer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FileHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MultiSet.cpp">
